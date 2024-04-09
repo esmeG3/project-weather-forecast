@@ -1,10 +1,13 @@
 
 import './App.css';
+import Weather from "./Weather.js";
 
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
       Weather App
+      <Weather/>
       <footer>
         This project was coded by{" "}
         <a href="https://github.com/esmeG3" target="_blank" rel="noreferrer">
@@ -27,6 +30,7 @@ export default function App() {
           Netfliy
         </a>
       </footer>
+      </div>
     </div>
   );
 }

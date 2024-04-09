@@ -13,14 +13,16 @@ export default function Weather() {
                 <input type="submit" value="Search"className="btn btn-secondary w-100"/>
                 </div>
             </div></form>
-        
-      <h1>New Orleans</h1>
+        <div className="row">
+            <div className="col-8">
+      <h1>New Orleans</h1></div>
+<div className="col-4">
 <p>
             Thursday 12:00
             <br/>
             Partly Cloudy
             </p>
-   
+   </div></div>
       <div className="row">
         <div className="col-6">
             <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly Cloudy"/>

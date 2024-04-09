@@ -1,7 +1,6 @@
 .App {
-max-width: 600px;
+max-width: 550px;
 margin: 0 auto;
-
 }
 
 .App footer {
@@ -11,3 +10,7 @@ margin: 0 auto;
 }
 
 
+.App a {
+  text-decoration: none;
+  color: gray;
+}
